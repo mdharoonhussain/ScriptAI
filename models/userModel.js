@@ -21,10 +21,10 @@ const userSchema = new mongoose.Schema({
         type: String,
         default: ""
     },
-    subscription: {
-        type: String,
-        default: ""
-    }
+    // subscription: {
+    //     type: String,
+    //     default: ""
+    // }
 });
 
 // For Hashing Password
